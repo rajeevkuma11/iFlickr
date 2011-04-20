@@ -1,0 +1,16 @@
+Cross platform mobile application development has never been easier!
+Right, maybe it seems too much offensive but I assure you that it’s much more easy these days. Especially for Javascript developers.
+With Phonegap, you can develop applications on iPhone/iTouch, Android, Blackberry, Palm, Windows Mobile and Symbian. All features are not available for all of these platforms yet but you can develop really good applications on iPhone and Android.
+At that point, the question is that “How can we make our Phonegap applications look more iPhone/Android style?” We have different solutions for that.
+
+    * Sencha Touch
+    * jQuery Mobile
+    * jQTouch
+
+You can try and learn how to use them yourself. Here, I’m going to talk about Sencha Touch. With Sencha Touch, you can make iPhone/Android applications look like just native applications. Same components, same behaviours, etc. Besides all you need to do is nothing but using your experience on Javascript.
+In this article, I’m going to help you to create your first cross platform mobile application with Phonegap, Sencha Touch and Flickr API.
+
+We’re starting with Sencha Touch part. Sencha Touch development is based on hierarchical components architecture. You can check the components on their offical API documentation website. In this sample application, I have a few Panel components as containers and some buttons for actions. To communicate with Flickr REST API, we need permission from the user. For that purpose, I created Settings page.
+There is also SQLite implementation for storing session data. You can find the source code of it at Gist. To provide Flickr implementation I just created a Javascript client which is also available in source code. It’s hardly depended to some part of my application but with a few modification you can make it work for your own applications.
+In Phonegap part of the application I use camera feature. As on that page we can reach camera via Phonegap.
+In the end, all we need to do is install our web based cross platform mobile application to our device through Phonegap.
